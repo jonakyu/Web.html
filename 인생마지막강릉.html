@@ -6,22 +6,31 @@
 <style>
 a:link {color:black;
   text-decoration: none;
-
 }
+a:visited {color:orange}
 a:active {color:maroon;}
-a:hover {color:green;}
-h1 {
-text-align: center;
+a:hover {color:teal;}
+h1 {text-align: center;
 font-size: 68px;
+border: 5px dashed darkolivegreen;
+border-top: none;
+margin:0;
+padding:10px;
 }
 h2{text-align: center;
-
 }
+p{text-align: center;}
+#grid ul, ol{margin:0; padding:40px; padding-bottom:0; width:200px}
+
+#grid {display:grid; grid-template-columns: 1fr 4fr;}
+#index {border-right: darkolivegreen 5px dashed;}
 </style>
 </head>
 
 <body>
     <h1><a href="index.html"> 이혜인스타그램</a></h1>
+<div id="grid">
+  <div id="index">
 <ol start="1">
   <li><a href="노랭이추석.html"> 노랭이추석</a></li>
   <li><a href="부스감성.html"> 부스감성</a></li>
@@ -35,11 +44,17 @@ h2{text-align: center;
   <li><a href="https://www.instagram.com/hyein.1224/" target="_blank"
     title="이혠">@hyein.1224</a></li>
 </ul>
+  </div>
+  <div>
 <h2>이혜인스타그램에 오신걸 환영합니다</h2>
+<p align="middle">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bFSlpeP8NGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 <p>남자친구가 이혜인 인스타그램 아카이브를 만들었습니다~</p>
 
 <img src="인생마지막강릉.png" width="100%">
 <p style="margin-top:45px;">인생 마지막 강릉ㅎ</p>
+</div>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
